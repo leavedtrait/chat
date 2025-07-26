@@ -1,5 +1,5 @@
 build:
-	gcc main.c -lncurses -o chat
+	gcc main.c -lncurses -lpthread -o chat
 
 run:
 	./chat
