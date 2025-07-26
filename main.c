@@ -41,7 +41,7 @@ void init_ui() {
     
     // Draw title bar
     wbkgd(titlewin, COLOR_PAIR(1));
-    mvwprintw(titlewin, 0, 0, "Terminal Chat - Type '/quit' to exit, '/help' for commands");
+    mvwprintw(titlewin, 0, 0, "Terminal Chat - Type '/quit' to exit");
     wrefresh(titlewin);
     
     // Draw input window border
